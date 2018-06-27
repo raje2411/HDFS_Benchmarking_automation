@@ -32,9 +32,12 @@ The script should email the status when each iteration (filesize) is completed.
 Sample email:
 +++++++++++++
 
-"  Benchmarking test run completed for 50 MB, check the /home/hdfs/benchmarking_results directory for more details "
+    "  Benchmarking test run completed for 50 MB, check the /home/hdfs/benchmarking_results directory for more details "
 
-    Benchmarking Results:-
+
+++++++++++++++++++++++
+Benchmarking Results:-
+++++++++++++++++++++++
 
         [hdfs@hbase1 benchmarking_results]$ ll
         total 36
