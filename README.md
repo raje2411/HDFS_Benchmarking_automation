@@ -1,4 +1,4 @@
-# HDFS_Benchmarking_automation
+# HDFS Benchmarking with TestDFSIO - automating manual steps
 
 Written couple of shell scripts to automate the DFSIO benchmarking.
 
