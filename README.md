@@ -55,48 +55,46 @@ example output for 50MB file Write test output:
 
 [hdfs@hbase1 benchmarking_results]$ cat Write_test_10_files_50_MB
 ----- TestDFSIO ----- : write
-           Date & time: Wed Jun 27 06:20:47 UTC 2018
-       Number of files: 10
+Date & time: Wed Jun 27 06:20:47 UTC 2018
+Number of files: 10
 Total MBytes processed: 500.0
-     Throughput mb/sec: 28.135726745821845
+Throughput mb/sec: 28.135726745821845
 Average IO rate mb/sec: 30.133743286132812
- IO rate std deviation: 9.189110638956139
-    Test exec time sec: 27.067
+IO rate std deviation: 9.189110638956139
+Test exec time sec: 27.067
 
 ----- TestDFSIO ----- : write
-           Date & time: Wed Jun 27 06:21:50 UTC 2018
-       Number of files: 10
+Date & time: Wed Jun 27 06:21:50 UTC 2018
+Number of files: 10
 Total MBytes processed: 500.0
-     Throughput mb/sec: 32.86878779910597
+Throughput mb/sec: 32.86878779910597
 Average IO rate mb/sec: 37.29134750366211
- IO rate std deviation: 15.178324163358377
-    Test exec time sec: 27.152
+IO rate std deviation: 15.178324163358377
+Test exec time sec: 27.152
 
 ----- TestDFSIO ----- : write
-           Date & time: Wed Jun 27 06:22:54 UTC 2018
-       Number of files: 10
+Date & time: Wed Jun 27 06:22:54 UTC 2018
+Number of files: 10
 Total MBytes processed: 500.0
-     Throughput mb/sec: 33.84552900561836
+Throughput mb/sec: 33.84552900561836
 Average IO rate mb/sec: 36.33448028564453
- IO rate std deviation: 9.388440906004917
-    Test exec time sec: 25.233
+IO rate std deviation: 9.388440906004917
+Test exec time sec: 25.233
 
 ----- TestDFSIO ----- : write
-           Date & time: Wed Jun 27 06:24:00 UTC 2018
-       Number of files: 10
+Date & time: Wed Jun 27 06:24:00 UTC 2018
+Number of files: 10
 Total MBytes processed: 500.0
-     Throughput mb/sec: 34.88940060009769
+Throughput mb/sec: 34.88940060009769
 Average IO rate mb/sec: 37.85911178588867
- IO rate std deviation: 11.650877762432664
-    Test exec time sec: 29.224
+IO rate std deviation: 11.650877762432664
+Test exec time sec: 29.224
 
 ----- TestDFSIO ----- : write
-           Date & time: Wed Jun 27 06:25:05 UTC 2018
-       Number of files: 10
+Date & time: Wed Jun 27 06:25:05 UTC 2018
+Number of files: 10
 Total MBytes processed: 500.0
-     Throughput mb/sec: 30.315891590371674
+Throughput mb/sec: 30.315891590371674
 Average IO rate mb/sec: 31.3275089263916
- IO rate std deviation: 6.5586690376157515
-    Test exec time sec: 26.094
-    
-
+IO rate std deviation: 6.5586690376157515
+Test exec time sec: 26.094
