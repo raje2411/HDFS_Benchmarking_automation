@@ -22,9 +22,11 @@ The above tests were iterated 5 times for the following file sizes.
 
 Inputs:-
 
--files   --> No. of HDFS files used for testing the throughput.  
--output  --> is the directory where you want to collect all your benchmarking results.
--email   -->you email id
+    -files   --> No. of HDFS files used for testing the throughput.  
+
+    -output  --> Directory where you want to collect all your benchmarking results.  The script checks and creates the complete path of the directory if it doesn't exist.
+
+    -email   --> your email id
 
 The script should email the status when each iteration (filesize) is completed.
 
