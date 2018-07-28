@@ -28,11 +28,11 @@ fi
 for loop_count in {1..5}
 do
 #Write Test
-	hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -D mapreduce.job.queuename=dt_adhoc -D mapred.output.compress=false -D test.build.data=DFSIO -write -nrFiles $1 -size $2 -resFile $3/Write_test_$1_files_$2_MB >> $3/std_output_error/Write_Std_out_err_$1_files_$2_MB   2>&1 
+	hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -D mapreduce.job.queuename=default -D mapred.output.compress=false -D test.build.data=DFSIO -write -nrFiles $1 -size $2 -resFile $3/Write_test_$1_files_$2_MB >> $3/std_output_error/Write_Std_out_err_$1_files_$2_MB   2>&1 
 #Read Test
-	hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -D mapreduce.job.queuename=dt_adhoc -D mapred.output.compress=false -D test.build.data=DFSIO -read -nrFiles $1 -size $2 -resFile $3/Read_test_$1_files_$2_MB >> $3/std_output_error/Read_Std_out_err_$1_files_$2_MB   2>&1 
+	hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -D mapreduce.job.queuename=default -D mapred.output.compress=false -D test.build.data=DFSIO -read -nrFiles $1 -size $2 -resFile $3/Read_test_$1_files_$2_MB >> $3/std_output_error/Read_Std_out_err_$1_files_$2_MB   2>&1 
 #Cleanup
-	hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -D mapreduce.job.queuename=dt_adhoc -D mapred.output.compress=false -D test.build.data=DFSIO -clean >> $3/std_output_error/Cleanup_Std_out_err_$1_file_$2_MB   2>&1
+	hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -D mapreduce.job.queuename=default -D mapred.output.compress=false -D test.build.data=DFSIO -clean >> $3/std_output_error/Cleanup_Std_out_err_$1_file_$2_MB   2>&1
 done
 #Exit the bash shell
 exit 0 > /dev/null 2>&1
