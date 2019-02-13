@@ -18,7 +18,7 @@ The above tests were iterated 5 times for the following file sizes.
     ++++++++++++
     How to run:
     ++++++++++++ 
-    nohup bash /home/hdfs/scripts/start_benchmark.sh -files 10 -output /home/hdfs/benchmarking_results -email   example@gmail.com > start_benchmark.log 2>&1 
+    nohup bash /home/hdfs/scripts/start_benchmark.sh -files 10 -output /home/hdfs/benchmarking_results -email   example@gmail.com > start_benchmark.log 2>&1 &
 
 Inputs:-
 
